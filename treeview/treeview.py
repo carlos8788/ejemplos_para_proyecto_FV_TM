@@ -20,7 +20,6 @@ def agregar(treeview, dato_1, dato_2, dato_3, dato_4):
 
 def eliminar_datos(tabla):
         item = tabla.focus()
-        # global lista_datos
         ubicacion = tabla.item(item)['values']
         id = ubicacion[0]
         for i in lista_datos:
